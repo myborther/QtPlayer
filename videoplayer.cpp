@@ -102,6 +102,7 @@ void VideoPlayer::run()
     int64_t pts_time = 0;
     int64_t last_pts = 0;
 
+    // 此版本帧率不对
     // while(1){
     //     if(av_read_frame(avFormatContext,m_Packet) < 0){
     //         avcodec_send_packet(videoContext,m_Packet);
